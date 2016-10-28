@@ -38,7 +38,7 @@ def m(m):
 
 @bot.message_handler(commands=['stats'])
 def m(m):
-        if m.from_user.id == 238773538 or m.from_user.id == 211068405:
+        if m.from_user.id == 273822226 or m.from_user.id == 273822226:
           file = redis.scard('files')
           msm = redis.scard('memebers')
           em = redis.scard('msgs')
